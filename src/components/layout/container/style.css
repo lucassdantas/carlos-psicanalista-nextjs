@@ -1,0 +1,16 @@
+.auto-screen-width {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auto-size-width {
+    width: 1150px;
+}
+
+@media screen and (max-width: 1150px) {
+    .auto-size-width {
+        width: 100%;
+    }
+}

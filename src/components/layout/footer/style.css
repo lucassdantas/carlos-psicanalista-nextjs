@@ -1,0 +1,119 @@
+.footer-component {
+    background-image: url('../../../assets/tempImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    height: 500px;
+    padding-top: 80px;
+}
+
+.footer-content-container {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 280px;
+    object-fit: contain;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer-contact h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer-contact p {
+    font-weight: 300;
+}
+
+.footer-contact-item {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-copyright {
+    color: var(--gray-light-3);
+    font-weight: 200;
+}
+
+.copyright-diagonal {
+    cursor: pointer;
+    user-select: none;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer-component {
+        width: 100%;
+        height: auto;
+        background-image: url('../../../assets/tempImage.jpg');
+        padding: 50px 20px;
+    }
+
+    .footer-right {
+        gap: 25px;
+        align-items: flex-end;
+    }
+
+    .footer-logo {
+        width: auto;
+        height: auto;
+    }
+
+    .footer-contact img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-contact {
+        gap: 20px;
+    }
+
+    .footer-contact h1 {
+        display: none;
+    }
+
+    .footer-contact p {
+        font-size: 0.7rem;
+    }
+
+    .footer-copyright {
+        font-size: 0.6rem;
+    }
+
+}
+
+@media (max-width:400px){
+    .footer-copyright {
+        margin-top:12px;
+    }
+    .footer-content-container{
+        flex-direction:column;
+    }
+}
