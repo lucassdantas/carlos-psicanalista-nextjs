@@ -24,9 +24,7 @@ export const Root = () => {
             <p><span>7 dias</span> de garantia</p>
           </div>
         </div>
-        <Link href='#bonus-price'>
-          <Button.Root variant='primary' size='large'>QUERO ME TORNAR BOSS</Button.Root>
-        </Link>
+        <Button.Root variant='primary' size='large'>EU QUERO</Button.Root>
       </Container.AutoSizeWidth>
     </Container.AutoScreenFullWidth>
 )

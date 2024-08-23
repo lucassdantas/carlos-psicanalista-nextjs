@@ -1,6 +1,5 @@
 .learn-components {
     padding: 100px 0px;
-    background-color: var(--brown-dark);
     color:#fff;
 }
 .learn-card{
@@ -43,10 +42,10 @@
     align-items: center;
     flex-direction: column;
     gap: 25px;
+    color:#000;
 }
 
 .learn-panel h1 {
-    color: var(--white);
     font-size: 1.5rem;
     font-weight: 300;
 }
@@ -57,7 +56,7 @@
 
 .learn-panel-arrow {
     width: 225px;
-    border: 1px solid var(--red-1);
+    border: 1px solid var(--linear-brown-1);
 }
 
 .learn-grid-items {

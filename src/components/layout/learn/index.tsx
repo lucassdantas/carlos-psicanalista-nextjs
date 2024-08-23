@@ -62,33 +62,30 @@ const Root = ({singularFontFamily}:any) => {
 ];
 
 
-    return (
-        <Container.AutoScreenFullWidth className='learn-components'>
-            <Container.AutoSizeWidth className='learn-content-container'>
-                <div className='learn-panel'>
-                    <h2>Minhas especialidades</h2>
-                    <div className='learn-panel-arrow' />
-                </div>
-                <div className='learn-grid-items'>
-                    {learningCardsContent.map((learningCard:LearningCard, i) => {
-
-                        return(
-                            <div className={`learn-card ${learningCardsContent.length%3 !==0 && i >= learningCardsContent.length-1? 'learning-item-centered' : ''}`} key={i}>
-                                <h3 className={singularFontFamily.className}>{learningCard.titleNumber}</h3>
-                                <div className="lern-text-container">
-                                    <p className='learn-card-title'>{learningCard.content}</p>
-                                    <p className='learn-text-description'>{learningCard.description}</p>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
-                <Link href='#bonus-price'>
-                    <Button.Root variant='primary' size='large'>Eu quero</Button.Root>
-                </Link>
-            </Container.AutoSizeWidth>
-        </Container.AutoScreenFullWidth>
-    )
+  return (
+  <Container.AutoScreenFullWidth className='learn-components'>
+    <Container.AutoSizeWidth className='learn-content-container'>
+      <div className='learn-panel'>
+        <h2>Minhas especialidades</h2>
+        <div className='learn-panel-arrow' />
+      </div>
+      <div className='learn-grid-items'>
+        {learningCardsContent.map((learningCard:LearningCard, i) => {
+          return(
+            <div className={`learn-card ${learningCardsContent.length%3 !==0 && i >= learningCardsContent.length-1? 'learning-item-centered' : ''}`} key={i}>
+              <h3 className={singularFontFamily.className}>{learningCard.titleNumber}</h3>
+              <div className="lern-text-container">
+                <p className='learn-card-title'>{learningCard.content}</p>
+                <p className='learn-text-description'>{learningCard.description}</p>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+      <Button.Root variant='primary' size='large'>Eu quero</Button.Root>
+    </Container.AutoSizeWidth>
+  </Container.AutoScreenFullWidth>
+  )
 }
 
 export { Root };

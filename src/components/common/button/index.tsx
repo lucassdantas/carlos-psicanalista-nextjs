@@ -10,7 +10,7 @@ interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 };
 
 const Root = ({ children, variant, size, type='button', ...props }: ButtonProps) => {
-    return <button {...props} type={type} className={`ui-button ${props.className} ui-button-${variant} ui-button-${size}`}>{children}</button>
+    return <a href='https://api.whatsapp.com/send?phone=5522988246598&text=Olá, vim do site e quero saber mais sobre seus serviços!' target='_blank' className={`ui-button ${props.className} ui-button-${variant} ui-button-${size}`}>{children}</a>
 };
 
 export { Root };

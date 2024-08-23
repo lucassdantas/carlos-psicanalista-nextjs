@@ -19,9 +19,7 @@ export const Root = ({singularFontFamily}:any) => {
               <div className="consultancy-description-container">
                 <p className='consultancy-content'>Descubra o poder do autoconhecimento e do crescimento pessoal com Carlos Alberto, um psicanalista dedicado ao seu bem-estar.</p>
               </div>
-              <Link href='#bonus-price'>
-                <Button.Root variant='white' size='large'>Eu quero</Button.Root>
-              </Link>
+              <Button.Root variant='white' size='large'>Eu quero</Button.Root>
             </div>
             <div className='consultancy-content-col-40'>
               <Image src={CarlosImage} alt='Foto do Carlos Alberto Psicanalista' className='carlos-img'/>
