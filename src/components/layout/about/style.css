@@ -6,7 +6,10 @@
 }
 
 .about-background {
-    width: 40%;
+    width: 90%;
+    height:fit-content;
+    object-fit:contain;
+    border-radius:40px;
 }
 
 .about-content {

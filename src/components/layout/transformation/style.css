@@ -4,7 +4,7 @@
 
 .transformation-component {
     height: 100vh;
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/bg/bg-01.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }

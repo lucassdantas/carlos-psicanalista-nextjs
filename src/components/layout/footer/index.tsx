@@ -3,13 +3,12 @@
 import React from 'react';
 import { Container } from '@/components';
 import Image from 'next/image';
-import Logo from '@/assets/tempImage.jpg';
 import InstagramIcon from '@/assets/icons/social-midia-instagram.svg';
-import EmailIcon from '@/assets/icons/social-midia-email.svg';
 import WhatsappIcon from '@/assets/icons/social-midia-wpp.svg';
 import './style.css';
 
 const Root = () => {
+    const currentYear = new Date().getFullYear()
     const redirectToWhatsApp = (phoneNumber: string) => {
         const url = `https://api.whatsapp.com/send/?phone=${phoneNumber}`;
         window.open(url, '_blank');
@@ -23,30 +22,21 @@ const Root = () => {
         <Container.AutoScreenFullWidth className='footer-component'>
             <Container.AutoSizeWidth className='footer-content-container'>
                 <div className='footer-left'>
-                    <Image className='footer-logo' src={Logo} alt='Logo' />
-                    <p className='footer-copyright'>2024 - Carlos Alberto - Todos os direitos reservados</p>
+                    <p className='footer-copyright'>© {currentYear} - Carlos Alberto - Todos os direitos reservados</p>
                 </div>
                 <div className='footer-right'>
                     <div className='footer-contact'>
-                        <h1>Entre em contato</h1>
-                        <section onClick={() => window.location.href = 'https://www.instagram.com/#/'} className='footer-contact-item'>
+                        <h4>Entre em contato</h4>
+                        <section onClick={() => window.location.href = 'https://www.instagram.com/carlosalbertopsicanalista/'} className='footer-contact-item'>
                             <Image src={InstagramIcon} alt='Instagram' />
-                            <p>instagram</p>
+                            <p>carlosalbertopsicanalista</p>
                         </section>
-                        <section onClick={() => sendMail('mailto:@gmail.com')} className='footer-contact-item'>
-                            <Image src={EmailIcon} alt='Email' />
-                            <p>email</p>
-                        </section>
-                        <section onClick={() => redirectToWhatsApp('por numero')} className='footer-contact-item'>
+                        <section onClick={() => redirectToWhatsApp('5522988246598')} className='footer-contact-item'>
                             <Image src={WhatsappIcon} alt='Whatsapp' />
-                            <p>por numero</p>
-                        </section>
-                        <section onClick={() => redirectToWhatsApp('por numero')} className='footer-contact-item'>
-                            <Image src={WhatsappIcon} alt='Whatsapp' />
-                            <p>Suporte equipe: por numero </p>
+                            <p>(22) 98824-6598</p>
                         </section>
                     </div>
-                    <p className='footer-copyright'>Desenvolvido por <span onClick={() => window.location.href = 'https://www.linkedin.com/in/lucas-de-sousa-dantas/'} className='copyright-diagonal'>Lucas Dantas</span></p>
+                    <p className='footer-copyright'>Desenvolvido por <a href = 'https://www.linkedin.com/in/lucas-de-sousa-dantas/' className='copyright-diagonal' target='_blank'>Lucas Dantas</a></p>
                 </div>
             </Container.AutoSizeWidth>
         </Container.AutoScreenFullWidth>

@@ -43,27 +43,27 @@ article.card ul{
     margin-top:12px;
 }
 .card-social-midia {
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/specialities/social-media-gestao-de-redes-sociais.jpg');
 }
 
 .card-analysis {
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/specialities/analise-de-posicionamento.jpg');
 }
 
 .card-consultancy {
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/specialities/consultoria-digital-boss.jpg');
 }
 
 .card-mentoring {
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/specialities/mentoria-boss-power.jpg');
 }
 
 .card-branding {
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/specialities/branding-criacao-de-logotipo.jpg');
 }
 
 .card-business {
-    background-image: url('../../../assets/tempImage.jpg');
+    background-image: url('../../../assets/specialities/calendario-de-conteudo.jpg');
 }
 
 @media screen and (max-width: 1150px) {

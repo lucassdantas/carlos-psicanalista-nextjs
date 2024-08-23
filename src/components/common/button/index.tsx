@@ -4,7 +4,7 @@ import './style.css';
 
 interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
     children: ReactNode,
-    variant: 'primary' | 'secondary',
+    variant: 'primary' | 'secondary' | 'white',
     size: 'small' | 'medium' | 'large',
     type?:'submit' | 'button'
 };

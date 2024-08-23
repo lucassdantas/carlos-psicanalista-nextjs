@@ -1,0 +1,112 @@
+.learn-components {
+    padding: 100px 0px;
+    background-color: var(--brown-dark);
+    color:#fff;
+}
+.learn-card{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: 420px;
+    padding:32px;
+    background-color:#0E0C0A;
+    border-radius:25px;
+}
+
+.learn-card h3{
+    font-size:128px;
+    color:#654A37;
+}
+
+.learn-card .learn-card-title{
+    font-weight:700;
+    font-size:24px;
+    margin:32px 0;
+}
+
+.learn-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.learn-text-description{
+  font-weight:normal;
+  font-size:18px;
+}
+
+
+.learn-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.learn-panel h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.learn-panel-extra-bold {
+    font-weight: 700;
+}
+
+.learn-panel-arrow {
+    width: 225px;
+    border: 1px solid var(--red-1);
+}
+
+.learn-grid-items {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px ;
+}
+
+.learning-item-centered {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+@media screen and (max-width: 1150px) {
+    .learn-components {
+        padding: 20px;
+        text-align:center;
+    }
+
+    .learn-content-container {
+        gap: 20px;
+    }
+    .learn-content-container p{
+        font-size:18px;
+    }
+    .learn-card {
+        min-width:210px;
+        width:90%;
+        height:fit-content;
+    }
+    .learn-grid-items {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-items:center;
+    }
+    .learning-item-centered {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .learn-panel-arrow {
+        width: 150px;
+    }
+}
+
+@media(max-width:345px){
+    .learn-card {
+        width:90%;
+        height:fit-content;
+    }
+}
