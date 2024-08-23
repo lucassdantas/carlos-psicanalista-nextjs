@@ -4,7 +4,6 @@ import React from 'react';
 import { Container, Button } from '@/components';
 
 import './style.css';
-import Link from 'next/link';
 import { MdOutlinePsychology } from 'react-icons/md';
 import { RiEmotionHappyLine } from 'react-icons/ri';
 import { LuUserCircle } from 'react-icons/lu';
