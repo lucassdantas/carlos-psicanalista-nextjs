@@ -12,16 +12,16 @@ export const Root = () => {
       <Container.AutoSizeWidth >
         <div className="row advantage-icons-container">
           <div className="col">
-            <p>Consultoria <span>individual</span></p>
+            <p>Experiência e Conhecimento Profundo</p>
           </div>
           <div className="col">
-            <p><span>4 encontros</span> online</p>
+            <p>Ambiente Confortável e Seguro</p>
           </div>
           <div className="col">
-            <p><span>Suporte</span> para dúvidas</p>
+            <p>Abordagem Centrada no Paciente</p>
           </div>
           <div className="col">
-            <p><span>7 dias</span> de garantia</p>
+            <p>Disponibilidade e Acessibilidade</p>
           </div>
         </div>
         <Button.Root variant='primary' size='large'>EU QUERO</Button.Root>
