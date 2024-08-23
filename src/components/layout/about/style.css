@@ -32,6 +32,11 @@
     font-weight: 300;
 }
 
+.about-contact-info h4{
+  margin-bottom:12px;
+  font-size:24px;
+  font-weight:normal;
+}
 .about-content-arrow {
     width: 300px;
     border: 1px solid var(--red-2);
