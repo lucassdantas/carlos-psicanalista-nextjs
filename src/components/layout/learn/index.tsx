@@ -73,7 +73,7 @@ const Root = ({singularFontFamily}:any) => {
         {learningCardsContent.map((learningCard:LearningCard, i) => {
           return(
             <div className={`learn-card ${learningCardsContent.length%3 !==0 && i >= learningCardsContent.length-1? 'learning-item-centered' : ''}`} key={i}>
-              <h3 className={singularFontFamily.className}>{learningCard.titleNumber}</h3>
+              <h3 >{learningCard.titleNumber}</h3>
               <div className="lern-text-container">
                 <p className='learn-card-title'>{learningCard.content}</p>
                 <p className='learn-text-description'>{learningCard.description}</p>

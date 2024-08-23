@@ -19,7 +19,12 @@
 .advantage-icons-container span{
     font-weight:700;
 }
-
+.advantage-icons-container .col{
+  color:#fff;
+}
+.advantage-icons-container .icon{
+  font-size:64px;
+}
 .advantage-icon{
     width:128px;
     margin-bottom:32px;

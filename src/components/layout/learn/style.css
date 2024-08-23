@@ -8,13 +8,13 @@
     width: 100%;
     height: 420px;
     padding:32px;
-    background-color:#0E0C0A;
+    background-color:var(--linear-brown-2);
     border-radius:25px;
 }
 
 .learn-card h3{
     font-size:128px;
-    color:#654A37;
+    color:#fff;
 }
 
 .learn-card .learn-card-title{
