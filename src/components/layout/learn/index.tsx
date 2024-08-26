@@ -2,7 +2,7 @@
 
 import React, { ReactNode, useEffect, useState } from 'react';
 import { openChat } from '@/api/whatsapp';
-import { Button, Container, Article } from '@/components';
+import { Button, Container } from '@/components';
 
 import './style.css';
 import Link from 'next/link';

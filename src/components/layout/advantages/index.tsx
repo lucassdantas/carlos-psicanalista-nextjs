@@ -31,7 +31,7 @@ export const Root = () => {
             <p>Disponibilidade e Acessibilidade</p>
           </div>
         </div>
-        <Button.Root variant='primary' size='large'>EU QUERO</Button.Root>
+        <Button.Root variant='primary' size='large'>Eu quero</Button.Root>
       </Container.AutoSizeWidth>
     </Container.AutoScreenFullWidth>
 )
