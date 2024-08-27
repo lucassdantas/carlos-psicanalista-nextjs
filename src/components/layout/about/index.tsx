@@ -2,11 +2,8 @@ import React from 'react';
 import { Container } from '@/components';
 import Image from 'next/image';
 import Background from '@/assets/carlos/psicanalista-carlos-alberto (1).jpeg';
-import InstagramIcon from '@/assets/icons/social-midia-instagram.svg';
-import WhatsappIcon from '@/assets/icons/social-midia-wpp.svg';
-import { CiFacebook } from "react-icons/ci";
-import './style.css';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import './style.css';
 const Root = () => {
  
   return (
