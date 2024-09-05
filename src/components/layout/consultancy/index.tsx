@@ -17,7 +17,7 @@ export const Root = ({singularFontFamily}:any) => {
                 <h1 className='consultancy-pretitle'>Transforme sua vida com a Psicanálise</h1>
               </div>
               <div className="consultancy-description-container">
-                <p className='consultancy-content'>Descubra o poder do autoconhecimento e do crescimento pessoal com Carlos Alberto, um psicanalista dedicado ao seu bem-estar.</p>
+                <p className='consultancy-content'>Descubra o poder do autoconhecimento e do crescimento pessoal com Carlos Alberto, um psicanalista dedicado ao seu bem-estar com atendimenos online e presencial.</p>
               </div>
               <Button.Root variant='white' size='large'>Eu quero</Button.Root>
             </div>
